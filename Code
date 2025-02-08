@@ -1,0 +1,18 @@
+#define LDR_PIN A0  
+#define LED_PIN D1  // PWM output
+
+void setup() {
+    pinMode(LED_PIN, OUTPUT);
+    Serial.begin(9600);
+}
+
+void loop() {
+    int ldrValue = analogRead(LDR_PIN);  
+    int brightness = map(ldrValue, 200, 900, 255, 10);  // Andhera → Bright, Roshni → Dim
+
+    analogWrite(LED_PIN, brightness);  
+    Serial.print("LDR Value: "); Serial.print(ldrValue);
+    Serial.print(" | LED Brightness: "); Serial.println(brightness);
+    
+    delay(100);
+}
