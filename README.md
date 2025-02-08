@@ -1,26 +1,26 @@
-🌟 Automatic Street Light using NodeMCU & LDR (PWM Control)
-A smart lighting system that automatically adjusts LED brightness based on ambient light using a Light Dependent Resistor (LDR) and PWM control on NodeMCU.
+### **🚦 Automatic Street Light using NodeMCU & LDR**  
 
-📌 Features
-✔️ Automatic Brightness Control (Based on LDR readings)
-✔️ PWM Control for Smooth LED Dimming
-✔️ Energy Efficient - Lights up only when needed
-✔️ ESP8266 (NodeMCU) based Smart Lighting System
+#### **🔍 Overview**  
+This project demonstrates an **Automatic Street Light System** using **NodeMCU (ESP8266) and an LDR sensor**. The system **automatically adjusts the brightness of an LED** based on ambient light intensity using **PWM (Pulse Width Modulation)**.  
 
-🛠 Components Used
-NodeMCU (ESP8266) - 1
-LDR (Light Dependent Resistor) - 1
-10kΩ Resistor - 1
-220Ω Resistor - 1
-LED - 1
-Jumper Wires - As needed
-Breadboard - 1
+#### **⚡ Key Features**  
+✅ **LDR-based Light Sensing** – Detects surrounding light levels  
+✅ **PWM Control for Smooth Brightness Adjustment**  
+✅ **Low Power Consumption & Smart Automation**  
+✅ **NodeMCU (ESP8266) for Efficient Processing**  
 
-📖 How It Works?
-1️⃣ LDR senses ambient light levels
-2️⃣ NodeMCU reads LDR values through A0 (Analog Pin)
-3️⃣ LED brightness is adjusted using PWM (Pulse Width Modulation)
-4️⃣ If it’s dark → LED glows brighter, if it’s bright → LED dims
+#### **🛠 How It Works?**  
+1️⃣ **LDR (Light Dependent Resistor)** continuously measures ambient light intensity.  
+2️⃣ **NodeMCU reads LDR values** from the A0 pin and processes the data.  
+3️⃣ **PWM Signal controls LED brightness**:  
+   - **Bright light → LED dims**  
+   - **Dark environment → LED glows brighter**  
+4️⃣ **Smooth transition between brightness levels ensures power efficiency!**  
+
+#### **📌 Applications**  
+🔹 Smart street lighting systems  
+🔹 Home automation projects  
+🔹 Energy-saving solutions  
 
 📌 Project Demo
 (Upload a video on GitHub or YouTube and add the link here! 🎥)
