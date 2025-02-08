@@ -23,7 +23,7 @@ This project demonstrates an **Automatic Street Light System** using **NodeMCU (
 🔹 Energy-saving solutions  
 
 📌 Project Demo
-(Upload a video on GitHub or YouTube and add the link here! 🎥)
+(https://drive.google.com/file/d/1NMCfuCmt4DWHrXQRELYIgUbcg3nqvcxb/view?usp=drivesdk 🎥)
 
 🌟 Author
 👤 Karan Sathvara
