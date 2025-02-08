@@ -15,7 +15,7 @@ This project demonstrates an **Automatic Street Light System** using **NodeMCU (
 3️⃣ **PWM Signal controls LED brightness**:  
    - **Bright light → LED dims**  
    - **Dark environment → LED glows brighter**  
-4️⃣ **Smooth transition between brightness levels ensures power efficiency!**  
+4️⃣ **Smooth transition between brightness levels ensures power efficiency!**
 
 #### **📌 Applications**  
 🔹 Smart street lighting systems  
